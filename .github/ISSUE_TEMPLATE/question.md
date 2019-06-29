@@ -1,5 +1,5 @@
 ---
-name: Question
+name: ❓ Question
 about: I have a question about this package, and it doesn't fit into one of the other categories.
 title: "[question] "
 labels: question
