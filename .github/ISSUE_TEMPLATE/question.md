@@ -1,6 +1,6 @@
 ---
-name: I'm Stuck
-about: I need some help figuring out how to use this package
+name: Question
+about: I have a question about this package, and it doesn't fit into one of the other categories.
 title: "[question] "
 labels: question
 assignees: ''
