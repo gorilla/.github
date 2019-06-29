@@ -1,0 +1,43 @@
+version: 2.0
+
+jobs:
+  # Base test configuration for Go library tests Each distinct version should
+  # inherit this base, and override (at least) the container image used.
+  "test": &test
+    docker:
+      - image: circleci/golang:latest
+    working_directory: /go/src/github.com/gorilla/mux
+    steps: &steps
+      - checkout
+      - run: go version
+      - run: go get -t -v ./...
+      # Only run gofmt, vet & lint against the latest Go version
+      - run: >
+          if [[ "$LATEST" = true ]]; then
+            diff -u <(echo -n) <(gofmt -d .)
+          fi
+      - run: >
+          if [[ "$LATEST" = true ]]; then
+            go vet -v .
+          fi
+      - run: go test -v -race ./...
+
+
+  "latest":
+    <<: *test
+    environment:
+      LATEST: true
+
+{{ range .Versions }}
+  "{{ . }}":
+    <<: *test
+    docker:
+      - image: circleci/golang:{{ . }}
+{{ end }}
+
+workflows:
+  version: 2
+  build:
+    jobs:
+      - "latest"{{ range .Versions }}
+      - "{{ . }}"{{ end }}
