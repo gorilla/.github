@@ -1,0 +1,77 @@
+[
+  {
+    "name": "bug",
+    "color": "6d64d1",
+    "aliases": ["bug"]
+  },
+  {
+    "name": "breaking change",
+    "color": "db6d4e",
+    "aliases": ["breaking", "breaking-change"]
+  },
+  {
+    "name": "enhancement",
+    "color": "235d93",
+    "aliases": ["enhancement", "feature", "minor-rev-change"]
+  },
+  {
+    "name": "question",
+    "color": "4ace7a",
+    "aliases": ["question"]
+  },
+  {
+    "name": "feature request",
+    "color": "cc317c",
+    "aliases": ["discussion"]
+  },
+  {
+    "name": "needs review",
+    "color": "fbca04",
+    "aliases": ["needs review", "needs-review"]
+  },
+  {
+    "name": "documentation",
+    "color": "faee33",
+    "aliases": ["documentation"]
+  },
+  {
+    "name": "beginnner friendly",
+    "color": "bfe5bf",
+    "aliases": [
+      "beginner-friendly",
+      "beginner",
+      "good-starter-issue",
+      "starter-issue"
+    ]
+  },
+  {
+    "name": "help wanted",
+    "color": "bfe5bf",
+    "aliases": ["helpwanted", "help-wanted", "help wanted"]
+  },
+  {
+    "name": "wontfix",
+    "color": "db4429",
+    "aliases": ["wontfix", "wont-fix"]
+  },
+  {
+    "name": "duplicate",
+    "color": "cccccc",
+    "aliases": ["duplicate"]
+  },
+  {
+    "name": "build system",
+    "color": "333333",
+    "aliases": ["blocked"]
+  },
+  {
+    "name": "proposal",
+    "color": "111166",
+    "aliases": ["v2"]
+  },
+  {
+    "name": "stale",
+    "color": "ffffff",
+    "aliases": ["v2"]
+  }
+]
