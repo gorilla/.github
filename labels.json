@@ -2,37 +2,44 @@
   {
     "name": "bug",
     "color": "6d64d1",
-    "aliases": ["bug"]
+    "aliases": ["bug"],
+    "description": "Bug reports or related issues"
   },
   {
     "name": "breaking change",
     "color": "db6d4e",
-    "aliases": ["breaking", "breaking-change"]
+    "aliases": ["breaking", "breaking-change"],
+    "description": "Breaking API changes"
   },
   {
     "name": "enhancement",
     "color": "235d93",
-    "aliases": ["enhancement", "feature", "minor-rev-change"]
+    "aliases": ["enhancement", "feature", "minor-rev-change"],
+    "description": "For PRs that satisfy feature requests or improve the package"
   },
   {
     "name": "question",
     "color": "4ace7a",
-    "aliases": ["question"]
+    "aliases": ["question"],
+    "description": "General questions on how to use the package"
   },
   {
     "name": "feature request",
     "color": "cc317c",
-    "aliases": ["discussion"]
+    "aliases": ["discussion"],
+    "description": "New feature requests"
   },
   {
     "name": "needs review",
     "color": "fbca04",
-    "aliases": ["needs review", "needs-review"]
+    "aliases": ["needs review", "needs-review"],
+    "description": "Issues that need review by a maintainer"
   },
   {
     "name": "documentation",
     "color": "faee33",
-    "aliases": ["documentation"]
+    "aliases": ["documentation"],
+    "description": "A documentation issue or request"
   },
   {
     "name": "beginnner friendly",
@@ -42,17 +49,20 @@
       "beginner",
       "good-starter-issue",
       "starter-issue"
-    ]
+    ],
+    "description": "Issues or requests ideal for beginners"
   },
   {
     "name": "help wanted",
     "color": "bfe5bf",
-    "aliases": ["helpwanted", "help-wanted", "help wanted"]
+    "aliases": ["helpwanted", "help-wanted", "help wanted"],
+    "description": "Help needed to start, finish or review"
   },
   {
     "name": "wontfix",
     "color": "db4429",
-    "aliases": ["wontfix", "wont-fix"]
+    "aliases": ["wontfix", "wont-fix"],
+    "description": "WONTFIX"
   },
   {
     "name": "duplicate",
@@ -62,7 +72,8 @@
   {
     "name": "build system",
     "color": "333333",
-    "aliases": ["blocked"]
+    "aliases": ["blocked"],
+    "description": "CI & dependency related work"
   },
   {
     "name": "proposal",
@@ -73,5 +84,10 @@
     "name": "stale",
     "color": "ffffff",
     "aliases": ["v2"]
+  },
+  {
+    "name": "waiting on new maintainer",
+    "color": "7B33FF",
+    "description": "Issues/PRs waiting for a new maintainer."
   }
 ]
