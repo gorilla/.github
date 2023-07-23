@@ -4,7 +4,7 @@
 
 ## Reporting a Vulnerability
 
-Vulnerabilities should be reported to gorilla-maintainers@googlegroups.com - which is a private, maintainer-only group. Maintainers will attempt to respond to/confirm reports within 2-3 days, but if you believe your report to be "critical" to user safety and security, please note as such in the subject. We have tens of thousands of users using our software, and take security vulnerabilities seriously.
+ Maintainers will attempt to respond to/confirm reports within 2-3 days, but if you believe your report to be "critical" to user safety and security, please note as such in the subject. We have tens of thousands of users using our software, and take security vulnerabilities seriously.
 
 When reporting an issue, where possible, please provide at least:
 
@@ -15,4 +15,10 @@ When reporting an issue, where possible, please provide at least:
 
 The Gorilla team is a volunteer-only effort, and may reach back out for clarification.
 
-> Note: Please do not open public issues for security issues, as GitHub does not provide facility for private issues, and deleting the issue makes it hard to triage/respond back to the reporter.
+### Report using GitHub issues
+
+To report a vulnerability via GitHub issues, click on the `Issues` tab at the top of any repository and then click on the `New issue` button, then click on the `Report a vulnerability` button and fill out the form.
+
+### Report using email
+
+To report a vulnerability via email, send an email to gorilla-maintainers@googlegroups.com - which is a private, maintainer-only group.

@@ -1,4 +1,4 @@
-🦍 A helpful toolkit for building HTTP-based applications with the [Go programming language](https://go.dev/).
+🦍 A helpful toolkit for building HTTP-based applications with the Go programming language.
 
 ## Announcement
 
@@ -31,6 +31,6 @@ A few of the most popular libraries:
 * [**websocket**](https://github.com/gorilla/websocket), a standards-compliant and widely used websocket library
 * [**handlers**](https://github.com/gorilla/handlers), a collection of useful middleware for Go HTTP applications.
 
-## Help 
+## Help
 
 Open an issue on the relevant project. For security issues, see [SECURITY.md](https://github.com/gorilla/.github/blob/master/SECURITY.md).
