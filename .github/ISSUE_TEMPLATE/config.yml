@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Slack
+    url: https://gophers.slack.com/archives/C66HMHQHL
+    about: Participate in near real-time conversations with other Gorilla web toolkit community members. Ask questions, get answers, build relationships.
+  - name: GitHub Discussions
+    url: https://github.com/orgs/gorilla/discussions
+    about: Join in-depth discussions about the Gorilla web toolkit, propose new features, debate to your hearts content, and help shape our future!
+  - name: Mailing List
+    url: https://groups.google.com/g/gorilla-web
+    about: Do you love your email client and want to spend more time using it? Then this is the place for you! Ask questions and get announcements all from the safety of your inbox.
