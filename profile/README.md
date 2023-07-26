@@ -1,3 +1,6 @@
+[![OpenSSF Best Practices](https://bestpractices.coreinfrastructure.org/projects/7656/badge)](https://bestpractices.coreinfrastructure.org/projects/7656)
+[![License](https://img.shields.io/github/license/gorilla/.github)](https://img.shields.io/github/license/gorilla/.github)
+
 🦍 A helpful toolkit for building HTTP-based applications with the Go programming language.
 
 ## Announcement
