@@ -25,6 +25,8 @@
 - [ ] Bug Fix
 - [ ] Optimization
 - [ ] Documentation Update
+- [ ] Go Version Update
+- [ ] Dependency Update
 
 ## Description
 
